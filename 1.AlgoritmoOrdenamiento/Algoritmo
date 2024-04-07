@@ -1,0 +1,14 @@
+Burbuja
+El proceso de este algoritmo se basa en verificar por par, es decir toma los elementos que son vecinos y los compara, en caso que estén en orden equivocado los va cambiando repitiendo el proceso hasta que todos estén en el orden correcto y así las lista esta ordenada.
+
+Selección
+Este algoritmo se separa en dos listas al inicio, una lista vacía y otra desordenada, se va seleccionando fragmentos pequeños de la lista desordenada y se aplican a la lista vacía. Se crea un proceso de repetición hasta que la lista desordenada queda vacía.
+
+Inserción:
+En este se toma el primer elemento de la lista como si ya estuviera ordenado, es como si se dividiera en partes, el primer elemento hace parte de la lista ordenada y los que le siguen se encuentran en desorden. La continuación del proceso es tomar cada elemento de la parte desordenada y lo inserta en el lugar correcto en la parte ordenada y esto se repite hasta que todo este en orden. 
+
+QuickSort:
+Aquí se elige un pivote, el cual es un elemento que sirve como separador, de un lado se colocan los elementos menores a el y del otro los mayores, y se va repitiendo el proceso. Básicamente se divide en dos sablistas y están se van ordenando por mayor y menor.
+
+MergeSort:
+Divide la lista desordenada en sablistas de un solo elemento y luego las combina repetidamente en sablistas ordenadas hasta que solo quede una sablista, que estará ordenada.
